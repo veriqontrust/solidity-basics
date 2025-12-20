@@ -6,11 +6,11 @@ This repository documents my journey learning Solidity from scratch,with a stron
 ## Contents
 -SimpleStorage.sol
    -Covers basic Solidity concepts such as:
-   State variables
-   Structs
-   Mappings
-   Arrays
-   Function visibility
+   -State variables
+   -Structs
+   -Mappings
+   -Arrays
+   -Function visibility
 
 
 Includes comments explaining desgin choices and potential security considerations
