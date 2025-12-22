@@ -4,8 +4,8 @@ pragma solidity ^0.8.0;
 
 
 /*
-How to run/call a smart contract via another contract?
-Method-1: Absolutely not recommended - copy paste the code,
+How to call a smart contract via another contract?
+Method-1: Not recommended - copy paste the code,
 and then call it inside the contract.
 EX:
 */
