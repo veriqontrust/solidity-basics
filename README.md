@@ -36,7 +36,8 @@ This repository documents my journey learning Solidity from scratch,with a stron
    -Massive risk if parent code is not checked thoroughly.
    -Can corrupt state silently.
    -Upgrades/refactors break layout.
-   -Wrong parent function being called, and many more points to keep in mind.
+   -Wrong parent function being called.
+   -Potential risk due to human error too.
    
 
 
