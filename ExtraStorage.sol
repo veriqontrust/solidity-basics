@@ -10,7 +10,7 @@ contract ExtraStorage is SimpleStorage {
    If we were to modify any function we don't like from the parent contract,
    then we can do it using these keywords #virtual ,override
    
-   we have to add virtual to the parent function wewhat to override here , and add override to the child contract , to override the data.
+   we will have to add 'virtual' to the parent function that we want to override here , and add 'override' to the child contract , to override the data.
     */
 
    function store(uint256 _favoriteNumber) public override{
