@@ -7,12 +7,11 @@ pragma solidity ^0.8.0;
 How to call a smart contract via another contract?
 Method-1: Not recommended - copy paste the code,
 and then call it inside the contract.
-EX:
 */
 
 //Method-2: Using import.
 
-import "./SimpleStorage.sol";//importing the previous contract-SimpleStorage.sol
+import "./SimpleStorage.sol";//importing the previous contract instance-SimpleStorage.sol
 
 contract StorageFactory{
     SimpleStorage[] public simpleStorageArray;//this stores the address in simpleStorageArray
