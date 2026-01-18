@@ -23,7 +23,7 @@ contract SimpleStorage {
      Note: after searching , i got to know that both work the same but
      1st one is a bit safer than the second
      cause we are assigning values by calling those fields explicitly , so margin or error is low
-     plus here order of values doesn't matters as we are directly give the fields values by calling them ,
+     plus here order of values doesn't matter as we are directly giving the fields values by calling them ,
      but in the second one  1 misplacement of values in different order and it can silently introduce bugs , i.e it's order sensitive.
      Takeaway: Be as elaborative as needed to keep the code more prone to human error.
      */ 
